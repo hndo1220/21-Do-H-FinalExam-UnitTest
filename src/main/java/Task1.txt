@@ -1,0 +1,7 @@
+To extend the Add method using a Test-First Approach
+1.  Write a Test class containing Unit tests to check that
+    - add will throw an exception if one or both arguments are negative
+    - Add will ignore when one or both arguments are numbers > 1000
+2. Add implementation details to extend the add method
+3.  Test implementation using Junit test, then redo implementation if needed
+
