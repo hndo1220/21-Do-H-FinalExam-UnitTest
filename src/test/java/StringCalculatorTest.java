@@ -23,4 +23,11 @@ public class StringCalculatorTest{
         });
     }
 
+    @Test
+    public void addTest3(){
+        int expected = 4;
+        int actual = myStringCalculator.add("1, 3");
+        assertEquals(expected, actual);
+    }
+
 }
